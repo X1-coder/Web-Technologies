@@ -1,0 +1,131 @@
+body { 
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: var(--sk-body-background-color, rgb(255, 255, 255));
+    color: var(--sk-body-text-color, rgb(29, 29, 31));
+    font-style: normal;
+}
+
+.navbar {
+  background-color: #f5f5f7;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  justify-content: center;
+  list-style: none;      /* remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;         /* makes tabs horizontal */
+  gap: 20px;             /* space between tabs */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1d1d1f;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+.navbar a.active {
+  background-color: #1d1d1f;
+  color: white;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.08349;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.apple-logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    max-height: 5%;
+}
+
+#man {
+    font-size: 24px;
+    color: #0071E3
+;
+    line-height: 1.33333;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: -.004em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    gap: 16px;              /* space between buttons */
+    margin-top: 20px; 
+  }
+
+  .btn {
+    padding: 8px 24px;
+    font-size: 16px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+
+  .primary {
+    background-color: #0076DF;
+    text-decoration: none;
+    color: white;
+    border: none;
+  }
+
+  .outline {
+    background: transparent;
+    color: #0076DF;
+    text-decoration: none;
+    border: 2px solid #0076DF;
+  }
+
+  .btn:hover {
+    opacity: 0.5;
+  } 
+
+  table {
+    background-color: rgb(255, 255, 255);
+  }
+
+  table,th,td {
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 10px 20px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  tr:hover {
+    background-color: #D6EEEE;
+    color: whitesmoke;
+  }
+
+  tr {
+     border-bottom: 1px solid #363030;
+  }
+
+  h2 {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+ 
+
+  
+
+
+ 
